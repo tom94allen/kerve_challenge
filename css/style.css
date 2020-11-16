@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243,243,243);
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(148,130,105);
+}
+
+li{
+    list-style-type: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.main-header{
+    width: 100%;
+    background-color: black;
+}
+
+.flex-nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.9%;
+}
+
+.logo-cont{
+    width: 40%;
+}
+
+.nav-cont{
+    display: block;
+    width: 60%;
+}
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo a{
+    color: white;
+    font-family: PalatinoLT-Roman, 'Helvetica';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-item{
+    font-family: PalatinoLT-Light, 'Helvetica';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.icon-cont{
+    display: none;
+}
+
+#clear{
+    clear: both;
+}
+
+#main-hero{
+    background-image: url("../img/desktop_hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-text{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 10%;
+}
+
+.main-hero-text{
+    font-family: PalatinoLT-Light, 'helvetica';
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 10%;
+    margin-right: 35%;
+    text-align: left;
+    font-size: 76.59px;
+    line-height: 0.9;
+}
+
+.non-up{
+    text-transform: none;
+    font-size: 52.34px;
+}
+
+.hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 6%;               
+    background-color:#f8f8ff;
+    margin-right: 39%;
+    height: 0.5px;
+}
+
+#hero-sub-text{
+    font-family: PalatinoLT-Light, 'helvetica';
+    font-size: 26px;
+    color: black;
+    font-weight: normal;
+    width: 30%;
+    margin-right: 15%;
+    text-align: left;
+}
+
+#span-txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 2%;
+    font-family: AvenirLTStd-Book, 'helvetica';
+    margin-right: 40%;
+    font-size: 16px;
+}
+
+#span-cap-txt{
+    font-family: AvenirLTStd-Medium, 'helvetica';
+    color: white;
+}
+
+#mob-scroll-icon{
+    display: none;
+}
+
+.flex-container{
+    display: flex;
+    margin: 50px auto 25px auto;
+    flex-direction: column;
+    padding: 25px 5px;
+    width: 100%;
+    height: 575px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+#comp-heading{
+    text-transform: uppercase;
+    font-family: PalatinoLT-Roman, 'helvetica';
+    color: black;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 0.9;
+}
+
+.info-hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 6%;               
+    background-color:lightgray;
+    height: 1px;
+}
+
+#info-txt{
+    font-family: PalatinoLT-Roman, 'helvetica';
+    color: rgba(0,0,0,0.65);
+    font-size: 26px;
+    padding: 25px;
+    width: 100%;
+    height: auto;
+}
+
+#featured-product-cont{
+    display: flex;
+    margin: 15px auto;
+    flex-direction: column;
+    padding: 25px 15px;
+    width: 60%;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured-product{
+    width: 100%;
+}
+
+#product-img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#product-caption{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: AvenirLTStd-Medium, 'helvetica';
+    font-size: 16px;
+}
+
+#cap-gold{
+    color:  rgb(148,130,105);
+    font-family: AvenirLTStd-Book, 'helvetica';
+}
+
+#event-header-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+#event-header{
+    color:  rgb(148,130,105);
+    font-family: AvenirLTStd-Medium, 'Helvetica';
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+#event-hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 5%;               
+    background-color:lightgray;
+    height: 1px;
+}
+
+#events{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 25px auto 100px auto;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 400px;
+}
+
+.footer-cont-flex{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 35px;
+}
+
+.footer-info-flexcol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.event-date{
+    font-family: PalatinoLT-Light, 'helvetica';
+    color: rgb(148,130,105);
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
+.year{
+    color: rgba(220,220,220, 0.8);
+}
+
+.event-title{
+    font-family: PalatinoLT-Light, 'helvetica';
+    color: black;
+    font-size: 31px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+.event-desc{
+    font-family: AvenirLTStd-Book, 'Helvetica';
+    line-height: 1.75;
+    margin: 15px 0;
+    font-size: 16px;
+    color: rgba(0,0,0,0.5);
+}
+
+.more-info{
+    border: 1.75px solid  rgb(148,130,105);
+    padding: 5px 20px;
+    text-align: center;
+    font-family: AvenirLTStd-Medium, 'Helvetica';
+    background-color: transparent;
+    text-transform: uppercase;
+    color: rgb(148,130,105);
+    font-size: 12.24px;
+    letter-spacing: 2px;
+}
+
+#footer-logo-text{
+    font-size: 37.93px;
+}
+
+#legal-info{
+    line-height: 2;
+}
+
+#copyright{
+    font-family: AvenirLTStd-Book, 'Helvetica';
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+}
+
+#terms{
+    font-size: 9px;
+    font-family: AvenirLTStd-Book, 'Helvetica';
+    color: rgba(220,220,220, 0.5)
+}
+
+#terms a{
+    color: rgba(169,169,169, 0.5)
+}
+
+#footer-the{
+    font-size: 25.92px;
+}
+
+sup{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px){
+    #logo-cont{
+        display: none;
+    }
+
+    .flex-nav{
+        height: 25.75px;
+    }
+
+    #main-hero{
+        background-attachment: scroll;
+        height: 125%;
+    }
+
+    #hero-text{
+        margin-top: 10px;
+    }
+
+    #span-txt{
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 25px 0 0 0;
+        margin: 5px auto 0;
+        text-align: center;
+    }
+
+    #cap-txt, #product-caption{
+        color: rgba(0,0,0,0.5);
+    }
+
+    .nav-cont{
+        display: none;
+    }
+    .nav-cont.responsive{
+        width: 100%;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        display: block;
+    }
+    .nav-bar.responsive{
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        background-color: #111111;
+    }
+    .nav-bar .nav-item{
+        margin: 5px auto;
+    }
+    .icon-cont{
+        display: block;
+        position: absolute;
+        top: 10;
+        right: 15px;
+    }
+    .icon i{
+        position: relative;
+    }
+    #span-txt{
+        width: 67%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .nav-cont.responsive{
+        top: 5%;
+    }
+    #span-txt{
+        width: 86%;
+    }
+    .flex-container{
+        height: 325px;
+        margin: 50px auto 0 auto;
+        padding: 5px 5px;
+    }
+    #featured-product-cont{
+        height: 300px;
+        margin: 0 auto;
+        padding: 5px 25px;
+    }
+    #event-header-cont{
+        margin-top: 50px;
+    }
+    #event2, #event3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #hero-sub-text, .hr, #event2, #event3{
+        display: none;
+    }
+
+    #main-hero{
+        background-image: url("../img/mobile_hero.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #hero-text{
+        width: 100%;
+        height: 50%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 7.5%;
+    }
+
+    #mob-hero-text{
+        margin: 0;
+        font-size: 37.93px;
+    }
+
+    .non-up{
+        font-size: 25.78px;
+    }
+
+    #span-txt{
+        margin: 65px 0 20px 0;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #mob-scroll-icon{
+        display: block;
+    }
+
+    #down-arw{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #down-arw i{
+        color: rgba(255,255,255,0.75);
+    }
+    
+    #comp-heading{
+        font-size: 28px;
+    }
+
+    #info-txt{
+        font-size: 18px;
+    }
+
+    #featured-product-cont{
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px 0px;
+        
+    }
+    #product-caption{
+        width: 100%;
+    }
+
+    #events{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event-date, .event-title, .event-desc{
+        text-align: center;
+    }
+
+    #btn-cont{
+        width: 100%;
+        text-align: center;
+    }
+
+    #btn-cont .more-info{
+        margin: 0 auto;
+    }
+
+}
